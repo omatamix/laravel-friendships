@@ -11,9 +11,9 @@ composer require demency/laravel-friendships
 ```php
 <?php
 return [
-    'providers' => [
-        Demency\Friendships\FriendshipsServiceProvider::class,
-    ]
+        'providers' => [
+            Demency\Friendships\FriendshipsServiceProvider::class,
+      ]
 ]
 ```
 
