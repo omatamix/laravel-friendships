@@ -8,7 +8,7 @@ composer require demency/laravel-friendships
 ```
 
 2. Autoload the service provider in your app configuration by placing `Demency\Friendships\FriendshipsServiceProvider::class` in the providers array.
-<br>
+<br />
 ```php
 return [
     'providers' => [
