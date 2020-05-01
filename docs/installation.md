@@ -8,7 +8,7 @@ To install Laravel Friendships you need to make sure you have at least PHP versi
 composer require demency/laravel-friendships
 ```
 
-2. Autoload the service provider in your app configuration by placing `Demency\Friendships\FriendshipsServiceProvider::class` in the providers array.
+2. Autoload the service provider in your app configuration.
 
 ```php
 return [
