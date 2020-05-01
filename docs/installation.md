@@ -29,3 +29,5 @@ php artisan vendor:publish --provider="Demency\Friendships\FriendshipsServicePro
 ```sh
 php artisan migrate
 ```
+
+After that you have successfully installed Laravel Friendships.
