@@ -8,7 +8,6 @@ composer require demency/laravel-friendships
 ```
 
 2. Add the service provider to your app config.
-```php
 <?php
 
 return [
@@ -36,7 +35,6 @@ return [
     ]
 
 ]
-```
 
 3. Publish the service providers migrations and configuration files to your Laravel application.
 ```sh
