@@ -8,8 +8,7 @@ composer require demency/laravel-friendships
 ```
 
 2. Add the service provider to your app config.
-```php
-
+```
 return [
 
     // ...
