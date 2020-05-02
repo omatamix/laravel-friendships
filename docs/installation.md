@@ -26,3 +26,5 @@ php artisan migrate
 ```
 
 After that, you have successfully installed Laravel Friendships.
+
+- [Basic Usage](https://omatamix.github.io/laravel-friendships/basic-usage)
