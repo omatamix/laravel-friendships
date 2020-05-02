@@ -10,13 +10,13 @@
 
 To install Laravel Friendships you need to make sure you have at least PHP version `7.1.3` and at least Laravel Framework `5.8.x` or above.
 
-* Install this package through composer.
+1. Install this package through composer.
 
 ```sh
 composer require demency/laravel-friendships
 ```
 
-* Autoload the service provider in your app configuration.
+2. Autoload the service provider in your app configuration.
 
 ```php
 return [
@@ -26,13 +26,13 @@ return [
 ]
 ```
 
-* Publish the service providers migrations and configuration files to your Laravel application.
+3. Publish the service providers migrations and configuration files to your Laravel application.
 
 ```sh
 php artisan vendor:publish --provider="Demency\Friendships\FriendshipsServiceProvider"
 ```
 
-* Migrate your database to add the published tables to your database.
+4. Migrate your database to add the published tables to your database.
 
 ```sh
 php artisan migrate
