@@ -11,7 +11,8 @@ class CreateFriendshipsGroupsTable extends Migration
      *
      * @return void
      */
-    public function up() {
+    public function up()
+    {
         Schema::create(config('friendships.tables.fr_groups_pivot'), function (Blueprint $table) {
             $table->integer('friendship_id')->unsigned();
             $table->morphs('friend');
@@ -29,7 +30,8 @@ class CreateFriendshipsGroupsTable extends Migration
      *
      * @return void
      */
-    public function down() {
+    public function down()
+    {
         Schema::dropIfExists(config('friendships.tables.fr_groups_pivot'));
     }
 }
