@@ -11,8 +11,8 @@ class CreateFriendshipsTable extends Migration
      *
      * @return void
      */
-    public function up() {
-
+    public function up()
+    {
         Schema::create(config('friendships.tables.fr_pivot'), function (Blueprint $table) {
             $table->increments('id');
             $table->morphs('sender');
@@ -20,7 +20,6 @@ class CreateFriendshipsTable extends Migration
             $table->tinyInteger('status')->default(0);
             $table->timestamps();
         });
-
     }
 
     /**
@@ -28,7 +27,8 @@ class CreateFriendshipsTable extends Migration
      *
      * @return void
      */
-    public function down() {
+    public function down()
+    {
         Schema::dropIfExists(config('friendships.tables.fr_pivot'));
     }
 }
